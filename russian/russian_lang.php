@@ -3120,37 +3120,38 @@ $lang['project_setting_create_tasks'] = 'create tasks';
 $lang['project_setting_edit_tasks'] = 'edit tasks (only tasks created from contact)';
 
 # Version 1.9.2
-$lang['items_report'] = 'Items Report';
-$lang['reports_item'] = 'Item';
-$lang['quantity_sold'] = 'Quantity Sold';
-$lang['total_amount'] = 'Total Amount';
-$lang['avg_price'] = 'Average Price';
-$lang['item_report_paid_invoices_notice'] = 'Items report is generated only from paid invoices before discounts and taxes.';
-$lang['overview'] = 'Overview';
-$lang['timer_started_change_status_in_progress'] = 'Change task status to In Progress on timer started (applicable only if task status is Not Started)';
-$lang['company_info_format'] = 'Company Information Format (PDF and HTML)';
-$lang['customer_info_format'] = 'Customer Information Format (PDF and HTML)';
-$lang['custom_field_info_format_embed_info'] = 'Custom fields for %s can be easily embedded into PDF and HTML documents by adding the merge fields into the page format at the following page: %s';
-$lang['transfer_lead_notes_to_customer'] = 'Transfer lead notes to customer profile';
-$lang['authorized_signature_text'] = 'Authorized Signature';
-$lang['show_pdf_signature_invoice'] = 'Show PDF Signature on Invoice';
-$lang['show_pdf_signature_estimate'] = 'Show PDF Signature on Estimate';
+$lang['items_report'] = 'Отчет о материалах';
+$lang['reports_item'] = 'Пункт';
+$lang['quantity_sold'] = 'Количество продаж';
+$lang['total_amount'] = 'Итого';
+$lang['avg_price'] = 'Средняя цена';
+$lang['item_report_paid_invoices_notice'] = 'Отчет о деталях создается только с оплаченных счетов-фактур перед скидками и налогами.';
+$lang['overview'] = 'Обзор';
+$lang['timer_started_change_status_in_progress'] = 'Измените статус задачи на «Выполняется» при запуске таймера (применимо только в том случае, если статус задачи не запущен)';
+$lang['company_info_format'] = 'Информация о компании (PDF and HTML)';
+$lang['customer_info_format'] = 'Формат информации о клиентах (PDF and HTML)';
+$lang['custom_field_info_format_embed_info'] = 'Пользовательские поля для %s могут быть легко встроены в документы PDF и HTML, добавив поля слияния в формат страницы на следующей странице: %s';
+$lang['transfer_lead_notes_to_customer'] = 'Перенос заметок из лидов в профиль клиента';
+$lang['authorized_signature_text'] = 'Подпись уполномоченного лиц';
+$lang['show_pdf_signature_invoice'] = 'Показать подпись PDF на счете-фактуре';
+$lang['show_pdf_signature_estimate'] = 'Показать подпись в PDF';
 $lang['signature'] = 'Signature';
-$lang['signature_image'] = 'Signature Image';
-$lang['insert_checklist_templates'] = 'Insert Checklist Templates';
-$lang['save_as_template'] = 'Save as Template';
-$lang['scroll_responsive_tables_help'] = 'Tables with large amount of data will have horizontal scroll instead rows wrapped in + icon.';
-$lang['scroll_responsive_tables'] = 'Activate Scroll Responsive Tables';
-$lang['invoice_item_add_edit_rate_currency'] = 'Rate - %s';
-$lang['total_files_deleted'] = 'Total files deleted: %s';
-$lang['invalid_transaction'] = 'Invalid Transaction. Please try again.';
+$lang['signature_image'] = 'Изображение подписи';
+$lang['insert_checklist_templates'] = 'Вставить шаблоны контрольных списков';
+$lang['save_as_template'] = 'Сохранить как шаблон';
+$lang['scroll_responsive_tables_help'] = 'Таблицы с большим количеством данных будут иметь горизонтальную прокрутку, а вместо нее - обертка строк в + значке.';
+$lang['scroll_responsive_tables'] = 'Активировать адпативные таблицы прокрутки';
+$lang['invoice_item_add_edit_rate_currency'] = 'Ставка - %s';
+$lang['total_files_deleted'] = 'Всего удаленных файлов: %s';
+$lang['invalid_transaction'] = 'Недействительная транзакция. Пожалуйста, попробуйте еще раз.';
 $lang['payment_gateway_payu_money_key'] = 'PayU Money Key';
 $lang['payment_gateway_payu_money_salt'] = 'PayU Money Salt';
-$lang['settings_paymentmethod_description'] = 'Gateway Dashbord Payment Description';
+$lang['settings_paymentmethod_description'] = 'Платежная панель для шлюза';
 
 # Version 1.9.3
-$lang['default_ticket_reply_status'] = 'Default status selected when replying to ticket';
-$lang['ticket_add_response_and_back_to_list'] = 'Return to ticket list after response is submitted';
+$lang['default_ticket_reply_status'] = 'Статус по умолчанию, выбранный при ответе на тикет';
+$lang['ticket_add_response_and_back_to_list'] = 'Вернуться в список тикетов после отправки ответа';
+$lang['child_invoices'] = 'Связанные счета';
 
 # Version 1.9.4
 $lang['default_task_status'] = 'Default status when new task is created';
